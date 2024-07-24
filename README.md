@@ -6,7 +6,7 @@ This project is a simple Flask CRUD API with SQLAlchemy and Flask-Migrate. It pr
 ## Project Structure
 hackathon_python_flask_api/
 │
-├── setup.bat
+├── setup.ps1
 ├── requirements.txt
 ├── app.py
 └── README.md
@@ -21,7 +21,7 @@ hackathon_python_flask_api/
 
 2. **Run the Setup Script and run the Flask application**:
     ```cmd
-    setup.bat && flask run
+    Set-ExecutionPolicy RemoteSigned && setup.ps1 && flask run
     ```
 
 3. **Access the API**:
